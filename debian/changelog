@@ -1,3 +1,9 @@
+canaima-iconos-theme (0.1.5) trusty; urgency=medium
+
+  * [0ae18a9] Paquete nativo de Canaima/Debian
+
+ -- Jorge Castellano <jorgecm14@gmail.com>  Wed, 22 Jul 2015 12:15:00 -0430
+
 canaima-iconos-theme (0.1.4) trusty; urgency=medium
 
   * [0ac0109] Modificacion de scripts de instalacion
