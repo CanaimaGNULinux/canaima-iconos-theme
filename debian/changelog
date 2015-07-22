@@ -1,3 +1,9 @@
+canaima-iconos-theme (0.1.4) trusty; urgency=medium
+
+  * [0ac0109] Modificacion de scripts de instalacion
+
+ -- Jorge Castellano <jorgecm14@gmail.com>  Wed, 22 Jul 2015 11:04:50 -0430
+
 canaima-iconos-theme (0.1.2) trusty; urgency=medium
 
   * [8da9cad] Actualizacion de control direccion de fuente git
