@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Equipo de desarrollo de Canaima Universitario UPTMKR <canaimauniversitario@uptm.edu.ve>
 Uploaders: Jorge Agustin Castellano Mantilla <jorgecm14@gmail.com>
 Build-Depends: debhelper
-Standards-Version: 0.1
+Standards-Version: 3.9.5
 Homepage: http://canaimauniversitario.github.io/
 Vcs-Git: git@gitlab.canaima.softwarelibre.gob.ve:canaima-escritorio/canaima-iconos-theme.git
 Vcs-Browser: http://gitlab.canaima.softwarelibre.gob.ve/canaima-escritorio/icons-theme-canaima
