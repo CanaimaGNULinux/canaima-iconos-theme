@@ -1,3 +1,9 @@
+canaima-iconos-theme (0.1.7) trusty; urgency=medium
+
+  * [be6b32a] Actualizacion de control
+
+ -- Jorge Castellano <jorgecm14@gmail.com>  Wed, 22 Jul 2015 14:57:56 -0430
+
 canaima-iconos-theme (0.1.6) trusty; urgency=medium
 
   * [9d68697] Modificacion de version standar de debian
