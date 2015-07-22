@@ -1,18 +1,18 @@
 #!/bin/bash -e
 #
 # ==============================================================================
-# PAQUETE: canaima-estilo-visual-iconos-gnome
+# PAQUETE: canaima-iconos-theme
 # ARCHIVO: prerm
 # DESCRIPCIÓN: Prepara el sistema para que el paquete sea removido.
 # COPYRIGHT:
-#  (C) 2010 Sasha Veronica Solano Grosjean <sashasolano@gmail.com>
+#  (C) 2015 Jorge Agustin Castellano Mantilla <jorgecm14@gmail.com>
 # LICENCIA: GPL3
 # ==============================================================================
 #
 # Este programa es software libre. Puede redistribuirlo y/o modificarlo bajo los
 # términos de la Licencia Pública General de GNU (versión 3).
 
-PKG="canaima-estilo-visual-iconos-gnome"
+PKG="canaima-iconos-theme"
 
 case ${1} in
 
