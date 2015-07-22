@@ -6,7 +6,7 @@ Uploaders: Jorge Agustin Castellano Mantilla <jorgecm14@gmail.com>
 Build-Depends: debhelper
 Standards-Version: 5.0
 Homepage: http://canaimauniversitario.github.io/
-Vcs-Git: http://gitlab.canaima.softwarelibre.gob.ve/canaima-escritorio/icons-theme-canaima.git
+Vcs-Git: git@gitlab.canaima.softwarelibre.gob.ve:canaima-escritorio/canaima-iconos-theme.git
 Vcs-Browser: http://gitlab.canaima.softwarelibre.gob.ve/canaima-escritorio/icons-theme-canaima
 
 Package: canaima-iconos-theme
