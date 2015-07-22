@@ -1,3 +1,9 @@
+canaima-iconos-theme (0.1.1) trusty; urgency=medium
+
+  * [4c9d7022] Ingreso de changelog y modificacion de control
+
+ -- Jorge Castellano <jorgecm14@gmail.com>  Tue, 21 Jul 2015 23:34:51 -0430
+
 canaima-iconos-theme (0.1) unstable; urgency=medium
 
   * Initial release.
