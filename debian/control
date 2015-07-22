@@ -2,7 +2,7 @@ Source: canaima-iconos-theme
 Section: misc
 Priority: optional
 Maintainer: Equipo de desarrollo de Canaima Universitario UPTMKR <canaimauniversitario@uptm.edu.ve>
-Uploaders: Jorge Agustin Castellano Mantilla <jorgecm14@gmail.com>|Rafael Alejandro Mercado Carrillo <rafaelmercado.29@gmail.com>|Wuiliam Yohao Gavidia Zerpa <zerpaw@gmail.com>
+Uploaders: Jorge Agustin Castellano Mantilla <jorgecm14@gmail.com>
 Build-Depends: debhelper
 Standards-Version: 3.9.5
 Homepage: http://canaimauniversitario.github.io/

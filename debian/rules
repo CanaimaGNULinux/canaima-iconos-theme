@@ -1,7 +1,7 @@
 #!/usr/bin/make -f
 
 %:
-	dh ${@}
+	dh $@
 
-override_dh_auto_install:
-	$(MAKE) DESTDIR=$(CURDIR)/debian/canaima-iconos-theme install
+override_dh_auto_build:
+	find usr -type f -print -exec chmod 0644 '{}' \;
