@@ -1,0 +1,42 @@
+#!/bin/bash -e
+#
+# ==============================================================================
+# PAQUETE: canaima-estilo-visual-iconos-gnome
+# ARCHIVO: prerm
+# DESCRIPCIÓN: Prepara el sistema para que el paquete sea removido.
+# COPYRIGHT:
+#  (C) 2010 Sasha Veronica Solano Grosjean <sashasolano@gmail.com>
+# LICENCIA: GPL3
+# ==============================================================================
+#
+# Este programa es software libre. Puede redistribuirlo y/o modificarlo bajo los
+# términos de la Licencia Pública General de GNU (versión 3).
+
+PKG="canaima-estilo-visual-iconos-gnome"
+
+case ${1} in
+
+	remove|upgrade|deconfigure)
+
+		echo "¡ADVERTENCIA! Removiendo cursores de Canaima ..."
+		update-alternatives --remove x-cursor-theme /usr/share/icons/canaima-cursores/cursor.theme
+
+		echo "¡ADVERTENCIA! Removiendo iconos de Canaima ..."
+		update-alternatives --remove start-here.svg /usr/share/icons/canaima-iconos/places/scalable/canaima-logo.svg
+
+	;;
+
+	failed-upgrade)
+	;;
+
+	*)
+
+		echo "prerm no reconoce el argumento '"${1}"'" >&2
+		exit 1
+	;;
+
+esac
+
+#DEBHELPER#
+
+exit 0

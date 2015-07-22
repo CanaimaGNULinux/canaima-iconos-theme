@@ -1,0 +1,86 @@
+#!/bin/bash -e
+#
+# ==============================================================================
+# PAQUETE: canaima-estilo-visual-iconos-gnome
+# ARCHIVO: postinst
+# DESCRIPCIÓN: Configura el sistema despues la instalación del paquete.
+# COPYRIGHT:
+#  (C) 2010 Sasha Veronica Solano Grosjean <sashasolano@gmail.com>
+# LICENCIA: GPL3
+# ==============================================================================
+#
+# Este programa es software libre. Puede redistribuirlo y/o modificarlo bajo los
+# términos de la Licencia Pública General de GNU (versión 3).
+
+PKG="canaima-estilo-visual-iconos-gnome"
+# Color Verde
+VERDE="\e[1;32m"
+# Color Rojo
+ROJO="\e[1;31m"
+# Color Amarillo
+AMARILLO="\e[1;33m"
+# Negrita
+BOLD="\e[1m"
+# Caracter de fin de línea
+FIN="\e[0m"
+
+function ERROR() {
+echo -e ${ROJO}${1}${FIN}
+}
+
+function ADVERTENCIA() {
+echo -e ${AMARILLO}${1}${FIN}
+}
+
+function EXITO() {
+echo -e ${VERDE}${1}${FIN}
+}
+
+write_cache()
+{
+if [ -x /usr/bin/gtk-update-icon-cache ]; then
+    if ! gtk-update-icon-cache --force --quiet /usr/share/icons/canaima-iconos; then
+        ERROR "El caché de iconos no pudo generarse!"
+    fi
+fi
+}
+
+case ${1} in
+
+	triggered)
+		write_cache
+		exit 0
+	;;
+
+	configure)
+
+		ADVERTENCIA "Estableciendo cursores de Canaima por defecto ..."
+		update-alternatives --install /usr/share/icons/default/index.theme x-cursor-theme /usr/share/icons/canaima-cursores/cursor.theme 90
+
+		ADVERTENCIA "Estableciendo iconos de Canaima por defecto ..."
+		SIZES=$( ls /usr/share/icons/canaima-iconos/places | sed "s|scalable||g" )
+		command="update-alternatives --install /usr/share/icons/canaima-iconos/places/scalable/start-here.svg start-here.svg /usr/share/icons/canaima-iconos/places/scalable/canaima-logo.svg 90"
+
+		for s in $SIZES; do
+			command="$command --slave /usr/share/icons/canaima-iconos/places/${s}/start-here.png start-here-${s}.png /usr/share/icons/canaima-iconos/places/${s}/canaima-logo.png"
+		done
+
+		$command
+		write_cache
+	;;
+
+        abort-upgrade|abort-remove|abort-deconfigure)
+        ;;
+
+        *)
+
+                echo "postinst no reconoce el argumento '"${1}"'" >&2
+                exit 1
+
+        ;;
+
+esac
+
+#DEBHELPER#
+
+exit 0
