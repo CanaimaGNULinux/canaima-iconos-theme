@@ -1,3 +1,9 @@
+canaima-iconos-theme (0.1.6) trusty; urgency=medium
+
+  * [9d68697] Modificacion de version standar de debian
+
+ -- Jorge Castellano <jorgecm14@gmail.com>  Wed, 22 Jul 2015 12:44:11 -0430
+
 canaima-iconos-theme (0.1.5) trusty; urgency=medium
 
   * [0ae18a9] Paquete nativo de Canaima/Debian
