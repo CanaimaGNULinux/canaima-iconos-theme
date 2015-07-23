@@ -8,11 +8,34 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.0"
    width="96"
    height="96"
-   id="svg2408">
+   id="svg2408"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="network-receive.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="702"
+     id="namedview63"
+     showgrid="false"
+     inkscape:zoom="2.4583333"
+     inkscape:cx="124.0678"
+     inkscape:cy="48"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer4" />
   <defs
      id="defs2410">
     <linearGradient
@@ -103,11 +126,11 @@
        id="linearGradient4081">
       <stop
          id="stop4083"
-         style="stop-color:#aaaaaa;stop-opacity:1"
+         style="stop-color:#cdc0a3;stop-opacity:1;"
          offset="0" />
       <stop
          id="stop4085-9"
-         style="stop-color:#f0f0f0;stop-opacity:1"
+         style="stop-color:#cdc0a3;stop-opacity:1;"
          offset="1" />
     </linearGradient>
     <linearGradient
@@ -356,7 +379,7 @@
        d="m 40.4375,43.875 c -0.448625,0.0037 -0.901269,0.214258 -1.21875,0.53125 L 31.09375,52.5 c -0.323621,0.324123 -0.503658,0.79199 -0.5,1.25 l 0,5.5625 -12.1875,12.21875 c -0.657336,0.643577 -0.657336,1.825173 0,2.46875 L 22,77.59375 c 0.643577,0.657336 1.825173,0.657336 2.46875,0 l 12.21875,-12.1875 5.5625,0 c 0.45801,0.0037 0.925877,-0.176379 1.25,-0.5 l 8.09375,-8.125 c 0.657336,-0.643577 0.657336,-1.825173 0,-2.46875 L 41.6875,44.40625 c -0.330688,-0.330415 -0.782663,-0.542455 -1.25,-0.53125 z"
        inkscape:connector-curvature="0"
        id="path3804"
-       style="opacity:0.2;fill:#ffffff;fill-opacity:1;stroke:none" />
+       style="opacity:0.20000000000000001;fill:#cdc0a3;fill-opacity:1;stroke:none" />
     <path
        d="m 72.75,17.90625 c -0.458475,0 -0.896962,0.171332 -1.21875,0.5 L 59.3125,30.625 l -5.5625,0 c -0.45801,-0.0037 -0.925877,0.176379 -1.25,0.5 l -8.09375,8.09375 c -0.447494,0.438127 -0.599286,1.14343 -0.4375,1.75 0.07587,-0.284437 0.227658,-0.54455 0.4375,-0.75 L 52.5,32.125 c 0.324123,-0.323621 0.79199,-0.5037 1.25,-0.5 l 5.5625,0 12.21875,-12.21875 c 0.321788,-0.328668 0.760275,-0.5 1.21875,-0.5 0.458475,0 0.928212,0.171332 1.25,0.5 L 77.59375,23 c 0.209842,0.20545 0.361634,0.465563 0.4375,0.75 0.161786,-0.60657 0.01,-1.311873 -0.4375,-1.75 L 74,18.40625 c -0.321788,-0.328668 -0.791525,-0.5 -1.25,-0.5 z"
        inkscape:connector-curvature="0"
