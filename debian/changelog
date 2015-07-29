@@ -1,53 +1,62 @@
-canaima-iconos-theme (0.1.10) trusty; urgency=medium
+canaima-iconos-theme (0.2) unstable; urgency=medium
+
+  * [08f6342] Ultimo Arreglos
+  * [6e637c9] Paquete de iconos completa 1ra fase
+  * [5a77047] Actualizacion del archivo control y autores
+  * [1c21188] Nuevas dependencias y subida de version
+
+ -- Jorge Castellano <jorgecm14@gmail.com>  Wed, 29 Jul 2015 15:14:43 -0430
+
+canaima-iconos-theme (0.1.10) unstable; urgency=medium
 
   * [3db9b36] Modificaciones de permisos y el control
 
  -- Jorge Castellano <jorgecm14@gmail.com>  Wed, 22 Jul 2015 18:00:55 -0430
 
-canaima-iconos-theme (0.1.9) trusty; urgency=medium
+canaima-iconos-theme (0.1.9) unstable; urgency=medium
 
   * [2cd5aae] Cambios de instalacion y construccion del paquete
 
  -- Jorge Castellano <jorgecm14@gmail.com>  Wed, 22 Jul 2015 17:22:05 -0430
 
-canaima-iconos-theme (0.1.8) trusty; urgency=medium
+canaima-iconos-theme (0.1.8) unstable; urgency=medium
 
   * [f2b7a99] Datos de Diseñadores de iconos para Canaima
   * [da70c50] Modificaciones de dependencias
 
  -- Jorge Castellano <jorgecm14@gmail.com>  Wed, 22 Jul 2015 16:41:46 -0430
 
-canaima-iconos-theme (0.1.7) trusty; urgency=medium
+canaima-iconos-theme (0.1.7) unstable; urgency=medium
 
   * [be6b32a] Actualizacion de control
 
  -- Jorge Castellano <jorgecm14@gmail.com>  Wed, 22 Jul 2015 14:57:56 -0430
 
-canaima-iconos-theme (0.1.6) trusty; urgency=medium
+canaima-iconos-theme (0.1.6) unstable; urgency=medium
 
   * [9d68697] Modificacion de version standar de debian
 
  -- Jorge Castellano <jorgecm14@gmail.com>  Wed, 22 Jul 2015 12:44:11 -0430
 
-canaima-iconos-theme (0.1.5) trusty; urgency=medium
+canaima-iconos-theme (0.1.5) unstable; urgency=medium
 
   * [0ae18a9] Paquete nativo de Canaima/Debian
 
  -- Jorge Castellano <jorgecm14@gmail.com>  Wed, 22 Jul 2015 12:15:00 -0430
 
-canaima-iconos-theme (0.1.4) trusty; urgency=medium
+canaima-iconos-theme (0.1.4) unstable; urgency=medium
 
   * [0ac0109] Modificacion de scripts de instalacion
 
  -- Jorge Castellano <jorgecm14@gmail.com>  Wed, 22 Jul 2015 11:04:50 -0430
 
-canaima-iconos-theme (0.1.2) trusty; urgency=medium
+canaima-iconos-theme (0.1.2) unstable; urgency=medium
 
   * [8da9cad] Actualizacion de control direccion de fuente git
 
  -- Jorge Castellano <jorgecm14@gmail.com>  Tue, 21 Jul 2015 23:38:13 -0430
 
-canaima-iconos-theme (0.1.1) trusty; urgency=medium
+canaima-iconos-theme (0.1.1) unstable; urgency=medium
 
   * [4c9d7022] Ingreso de changelog y modificacion de control
 
