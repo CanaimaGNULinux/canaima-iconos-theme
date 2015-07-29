@@ -9,8 +9,8 @@ Vcs-Git: git@gitlab.canaima.softwarelibre.gob.ve:canaima-escritorio/canaima-icon
 Vcs-Browser: http://gitlab.canaima.softwarelibre.gob.ve/canaima-escritorio/icons-theme-canaima
 
 Package: canaima-iconos-theme
-Architecture: all
-Depends: hicolor-icon-theme, libgtk2.0-bin, librsvg2-common
+Architecture: any
+Depends: hicolor-icon-theme, libgtk2.0-bin, librsvg2-common, ${shlibs:Depends}, ${misc:Depends}
 Description: Iconos multientornos para Canaima GNU/Linux
  Este paquete provee los iconos y cursor para el estilo visual
  de Canaima GNU/Linux.
